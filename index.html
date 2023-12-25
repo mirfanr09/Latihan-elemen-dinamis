@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJA KEN</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <div class="logo">NINJA KEN</div>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Tentang Saya</a>
+          <a href="#">Portofolio</a>
+          <a href="#">Hubungi Saya</a>
+        </div>
+      </div>
+    </header>
+     <div class="top-wrapper">
+      <div class="container">
+        <strong><h1>NINJA KEN<span style="color:#f1d00e;" class="titik">.</span></h1></strong>
+        <p>My Portofolio</p>
+        <div class="btn-wrapper">
+          <center><img src="ninjaken.png" class="hero"></center>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h1>Tentang Saya</h1>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="contents">
+      <h3 class="section-title">Proyek Contoh</h3>
+      <div class="contents-item">
+        <img id="sliderImage" src="1.png" style="width: 200px;" onclick="openPopup(this.src)">
+        <p id="imageText">Image 1</p>
+    </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper container-form">
+      <div class="container">
+        <div class="contact-form">
+          <h3 class="section-title">Hubungi kami</h3>
+          <form id="contactForm">
+            <p>Email (Wajib Diisi)</p>
+            <input id="email" type="email" required>
+            <span id="emailError" style="color: red; display: none;">Alamat email tidak valid.</span>
+            <p>Pesan (Wajib Diisi)</p>
+            <textarea id="message" required></textarea>
+            <span id="messageError" style="color: red; display: none;">Pesan tidak boleh kosong.</span>
+            <p>*Bidang wajib diisi.</p>
+            <input type="submit" value="Kirim">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #7c7d82" class="container">
+    <footer class="header">
+      <div class="footer-logo">NINJA KEN</div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="#" style="color: #404146">Tentang Saya</a></li>
+          <li><a href="#" style="color: #404146">Portofolio</a></li>
+          <li><a href="#" style="color: #404146">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+<script src="script.js"></script>
+  </body>
+</html>
